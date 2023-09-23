@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+.container {
+    max-width: 1440px;
+    padding: 30px 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* navbar */
+.nav-bar {
+    justify-content: space-between;
+}
+
+.nav-bar p {
+    height: 49px;
+    font-family: "Roboto", sans-serif;
+    color: #373737;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.nav-right {
+    gap: 20px;
+    height: 49px;
+    font-family: "Roboto", sans-serif;
+    color: #373737;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.nav-right input {
+    background-color: #184655;
+    width: 223px;
+    height: 49px;
+    border-radius: 23.5px;
+    border: none;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    box-shadow: 0px 15px 10px -15px lightgrey;
+}
+
+::placeholder {
+    color: white;
+    font-size: 30px;
+    font-weight: 500px;
+}
+
+/* header-left */
+.header-section {
+    justify-content: space-between;
+    background-image: url("./assets/Rectangle\ 26.png");
+    width: 1380px;
+    height: 700px;
+    border-radius: 50px;
+}
+
+.header-left {
+    width: 40%;
+}
+
+.header-left h1 {
+    color: #184655;
+    font-size: 45px;
+    font-weight: 900px;
+    font-family: "Poppins", sans-serif;
+    line-height: 67.5px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.header-left img {
+    border-radius: 20px;
+    margin-left: 60px;
+    width: 546px;
+    height: 79px;
+}
+
+.header-left p {
+    font-size: 22px;
+    font-weight: 400px;
+    color: #53748c;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-right {
+    width: 50%;
+}
+
+.header-right img {
+    width: 475px;
+    height: 304px;
+}
+
+.latest-technology {
+    background-image: url(./assets/Rectangle\ 28.png);
+    width: 1380px;
+    height: 512px;
+    border-radius: 50px;
+}
+
+.latest-technology img {
+    width: 670px;
+    height: 460px;
+}
+
+.latest-technology h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-style: 500;
+    color: #404040;
+    padding: 30px;
+}
+
+.post-description {
+    font-size: 28px;
+    color: #464343;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* latest technology */
+.author {
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    height: 29px;
+    color: #6f6e6e;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.cards-area{
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 440px;
+    height: 469px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px lightgrey;
+    margin: 10px;
+}
+
+.card img {
+    width: 437px;
+    height: 272.61px;
+    border-radius: 20px;
+}
+
+.card h3,
+p {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.card h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #4a4848;
+}
+
+.writer-name,
+.date {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #6f6e6e;
+    font-weight: 500;
+}
+
+.card-description {
+    padding: 10px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464343;
+}
+
+.see {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #213949;
+    float: right;
+    font-family: "Roboto", sans-serif;
+}
+
+/* download app section */
+.download-app-section {
+    justify-content: space-between;
+    background-image: url("./assets/Rectangle\ 4.png");
+    width: 1386px;
+    height: 707px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.download-app-section p {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.download-app-section{
+    margin-top: 10px;
+}
+
+.app {
+    font-family: "Roboto", sans-serif;
+    font-size: 57px;
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.learning{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+button {
+    background-image: linear-gradient(to right, rgba(44, 86, 170, 1), rgba(59, 176, 139, 1));
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    width: 251px;
+    height: 49px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 70px;
+}
+
+.download-app-section .right img {
+    width: 752px;
+    height: 393px;
+}
