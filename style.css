@@ -11,6 +11,8 @@
 .container {
     max-width: 1440px;
     padding: 30px 30px;
+    /* position: sticky;
+    top: 0; */
 }
 
 .flex {
@@ -21,6 +23,13 @@
 /* navbar */
 .nav-bar {
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 230px;
+    height: 66px;
 }
 
 .nav-bar p {
@@ -251,7 +260,7 @@ button {
     width: 251px;
     height: 49px;
     font-family: "Roboto", sans-serif;
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .download-app-section .right img {
